@@ -14,8 +14,6 @@ Please include:
 - the impact and severity as you understand it;
 - any suggested remediation steps.
 
-Do not disclose the issue publicly until the organization has had an opportunity to assess and address it.
-
 ## Response expectations
 
 No response timeline or designated security contact has been published for this repository. The organization should confirm a private reporting channel and response process before promising handling times.
