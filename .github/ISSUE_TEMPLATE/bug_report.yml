@@ -1,7 +1,7 @@
 name: Bug report
 description: Report an issue in organization policy, documentation, or repository standards.
 title: ""
-labels: ["needs-triage"]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:

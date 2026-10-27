@@ -1,5 +1,7 @@
 # ERA Technologies™ AI coding instructions
 
+This file is in the organization’s shared `.github` repository. Do not assume GitHub applies it automatically to other repositories. For each project repository, add the approved guidance to that repository’s `.github/copilot-instructions.md` or configure it through a supported organization setting.
+
 ## General principles
 
 - Inspect the existing repository and architecture before making changes.
