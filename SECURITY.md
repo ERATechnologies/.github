@@ -4,7 +4,7 @@ We take security seriously and appreciate responsible disclosure.
 
 ## Reporting a vulnerability
 
-If you believe you have found a security issue in ERA Technologies™ systems or public materials, please report it privately through an approved security contact channel. A public security email has not yet been confirmed, so do not publish a private address in this repository.
+No verified private vulnerability-reporting channel is currently available for this repository. Do not post sensitive vulnerability details in a public issue. The organization should enable GitHub private vulnerability reporting or publish an approved security contact before soliciting vulnerability reports.
 
 Please include:
 
@@ -18,4 +18,4 @@ Do not disclose the issue publicly until the organization has had an opportunity
 
 ## Response expectations
 
-We aim to review reports promptly and coordinate a reasonable remediation path. Exact response timelines are determined by the company’s verified reporting process and the nature of the issue.
+No response timeline or designated security contact has been published for this repository. The organization should confirm a private reporting channel and response process before promising handling times.

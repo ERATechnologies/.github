@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This organization follows the spirit of the Contributor Covenant, adapted to support a respectful, professional, and inclusive technology community.
+This policy sets expectations for respectful, professional, and inclusive participation in the ERA Technologies™ GitHub community.
 
 ## Our standards
 
@@ -16,10 +16,6 @@ We expect all participants to:
 
 Examples include harassment, threats, personal attacks, intimidation, discriminatory language, or actions that interfere with others' ability to participate safely and respectfully.
 
-## Reporting
+## Reporting and enforcement
 
-If you encounter or witness unacceptable behavior, please report it through the company’s confirmed public or private reporting channel. Do not publish confidential information or speculate about matters that have not been formally confirmed.
-
-## Enforcement
-
-We will respond reasonably and proportionately to reports, making decisions that protect the integrity of the community and the safety of participants.
+No public conduct-reporting contact or enforcement process has been confirmed for this repository. The organization should designate and publish both before treating this document as an operational code of conduct.
