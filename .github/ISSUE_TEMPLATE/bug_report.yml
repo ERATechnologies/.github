@@ -1,0 +1,37 @@
+name: Bug report
+description: Report an issue in organization policy, documentation, or repository standards.
+title: ""
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve our public standards and documentation.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the issue clearly.
+      placeholder: What is wrong or missing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add any relevant details, links, or examples.
+      placeholder: Relevant repository, page, or policy reference.
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional information
+      description: Add any other details that may help.

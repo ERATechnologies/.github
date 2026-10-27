@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement to the organization’s public standards or documentation.
+title: ""
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share the idea, objective, and rationale.
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What improvement do you recommend?
+      placeholder: Describe the proposed change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why it matters
+      description: Explain the value or need.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: List any alternatives or constraints.
