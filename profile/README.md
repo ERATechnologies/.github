@@ -1,5 +1,3 @@
-![ERA Technologies banner](./assets/era-profile-banner.svg)
-
 # ERA Technologies™
 
 <p align="center">
