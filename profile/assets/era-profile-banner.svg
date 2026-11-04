@@ -1,19 +1,18 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">ERA Technologies banner</title>
-  <desc id="desc">A premium dark technology banner featuring purple geometric accents and the ERA Technologies name.</desc>
+  <desc id="desc">A premium light-background technology banner using the official ERA Technologies logo and purple digital accents.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1020"/>
-      <stop offset="0.5" stop-color="#121A2A"/>
-      <stop offset="1" stop-color="#0A0F1B"/>
+      <stop offset="0" stop-color="#F3F0F8"/>
+      <stop offset="1" stop-color="#EEEAF8"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#B794FF"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#6D28D9"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#5B21B6"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -23,31 +22,36 @@
 
   <rect width="1600" height="420" fill="url(#bg)"/>
 
+  <g opacity="0.5" stroke="#9AA7C7" stroke-width="2.2" fill="none">
+    <path d="M0 62L170 62L245 138L100 138L0 62Z"/>
+    <path d="M1260 25L1500 25L1600 120L1360 125L1260 25Z"/>
+    <path d="M1356 350L1600 350V420H1370L1356 350Z"/>
+    <path d="M0 360L220 360L300 420H0V360Z"/>
+    <path d="M140 30L260 30L200 120L80 120L140 30Z"/>
+    <path d="M1225 180L1360 180L1405 243L1260 243L1225 180Z"/>
+  </g>
+
   <g opacity="0.8">
-    <path d="M0 330L220 180L510 330H0Z" fill="#171E31"/>
-    <path d="M1100 30L1600 0V190L1290 180L1100 30Z" fill="#1A1330"/>
-    <path d="M1180 410L1600 250V420H1180V410Z" fill="#171E31"/>
-    <path d="M980 420L1110 330L1210 420H980Z" fill="#241B39"/>
+    <circle cx="118" cy="110" r="5" fill="#7C3AED"/>
+    <circle cx="1495" cy="298" r="5" fill="#7C3AED"/>
+    <circle cx="75" cy="336" r="5" fill="#7C3AED"/>
+    <circle cx="1010" cy="136" r="5" fill="#7C3AED"/>
   </g>
 
-  <g opacity="0.95" filter="url(#glow)">
-    <path d="M1105 92L1281 92L1329 160L1177 160L1105 92Z" fill="url(#accent)" opacity="0.9"/>
-    <path d="M1172 165L1376 165L1423 233L1218 233L1172 165Z" fill="url(#accent)" opacity="0.7"/>
-    <path d="M1238 238L1428 238L1475 302L1286 302L1238 238Z" fill="url(#accent)" opacity="0.5"/>
+  <g opacity="0.7" stroke="#A8B9D6" stroke-width="2" fill="none">
+    <path d="M1450 328L1550 328"/>
+    <path d="M1450 360L1552 360"/>
+    <path d="M130 70L250 70"/>
+    <path d="M100 338L200 338"/>
+    <path d="M1040 136H1160"/>
+    <path d="M1020 275L1110 275"/>
   </g>
 
-  <g opacity="0.55">
-    <path d="M85 115H260" stroke="#9F7AEA" stroke-width="3" stroke-linecap="round"/>
-    <path d="M85 140H365" stroke="#D8B4FE" stroke-width="2" stroke-linecap="round"/>
-    <path d="M85 165H300" stroke="#9F7AEA" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1120 330H1412" stroke="#9F7AEA" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1120 355H1477" stroke="#D8B4FE" stroke-width="2" stroke-linecap="round"/>
+  <g filter="url(#glow)">
+    <rect x="662" y="256" width="880" height="8" rx="4" fill="url(#line)" opacity="0.8"/>
   </g>
 
   <g>
-    <text x="96" y="190" fill="#F5F3FF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="0.5">ERA Technologies™</text>
-    <text x="96" y="248" fill="#DCD6F7" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="500" letter-spacing="0.2">Thoughtful engineering. Responsible development.</text>
-    <text x="96" y="292" fill="#DCD6F7" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="500" letter-spacing="0.2">Technology built with purpose.</text>
-    <text x="96" y="350" fill="#A78BFA" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" letter-spacing="2.6">DIGITAL PRODUCT ENGINEERING • SOFTWARE PLATFORMS • RESPONSIBLE TECHNOLOGY</text>
+    <image href="./era-logo.png" x="195" y="40" width="1150" height="330" preserveAspectRatio="xMidYMid meet"/>
   </g>
 </svg>
