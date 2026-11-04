@@ -1,5 +1,7 @@
 # ERA Technologies™
 
-This repository is the public organization profile home for ERA Technologies™.
+This repository hosts the public organization profile and profile assets for ERA Technologies™.
 
-The organization profile content and supporting assets are being prepared in the active development branch.
+- [Organization profile](./profile/README.md)
+
+© ERA Technologies™. Product names, availability, and capabilities are subject to change as development progresses.
